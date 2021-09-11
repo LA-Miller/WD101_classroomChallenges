@@ -1,0 +1,52 @@
+/* Silver:
+      Using a linked CSS file (see naming):
+      - Using the linked CSS file:
+      - Make the h1 tag LIGHT GREEN and CENTERED
+      - Make each h3 tag BLUE
+      - Make each p tag RED
+      - Wrap it all in a BORDER that is THICK and BLACK
+*/
+
+/* 
+Gold:
+      - Curve the corners of that BORDER
+      - Give it a BACKGROUND COLOR of GREY
+      - Wrap each Truth/Lie in separate divs, give them each a BORDER, curve the BORDER, and make each BACKGROUND COLOR LIGHT GREY
+      - CENTER everything in each div
+      - Line each Truth/Lie side-by-side */
+
+h1 {
+    text-align: center;
+    color: lightgreen;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+h3 {
+    color: blue;
+    height: 50px;
+    text-align: center;
+}
+
+p {
+    color: red;
+    text-align: center;
+
+}
+
+div {
+    border: thick solid black;
+    border-radius: 10px;
+    background-color: grey;
+    display: flex;
+    flex-direction: row;
+}
+
+.tt1l {
+    border: thick solid black;
+    border-radius: 10px;
+    background-color: lightgray;
+    display: inline;
+    margin: 10px;
+    padding: 10px;
+}
